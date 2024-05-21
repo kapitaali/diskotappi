@@ -12,7 +12,7 @@ class Twitter < OembedTitleFetcher
   listen_to :channel
 
   def allowed_hosts
-    %w(www.twitter.com twitter.com)
+    %w(x.com twitter.com)
   end
 
   def listen(m)
